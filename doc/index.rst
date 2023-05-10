@@ -7,35 +7,42 @@ Welcome to SpikeInterface's documentation!
   :align: center
 
 
-Spikeinterface is a collection of Python modules designed to improve the accessibility, reliability, and reproducibility
-of spike sorting and all its associated computations.
+SpikeInterface is a Python module to analyze extracellular electrophysiology data.
+
+With a few lines of code, SpikeInterface enables you to load and pre-process the recording, run several 
+state-of-the-art spike sorters, post-process and curate the output, compute quality metrics, and visualize the results.
 
 
+Overview of SpikeInterface modules
+----------------------------------
 
-With SpikeInterface, users can:
+.. image:: images/overview.png
+  :align: center
+
+
+SpikeInterface is made of several modules to deal with different aspects of the analysis pipeline:
 
 - read/write many extracellular file formats.
 - pre-process extracellular recordings.
 - run many popular, semi-automatic spike sorters (also in Docker/Singularity containers).
-- post-process sorted datasets.
+- post-process spike sorted data.
 - compare and benchmark spike sorting outputs.
 - compute quality metrics to validate and curate spike sorting outputs.
 - visualize recordings and spike sorting outputs.
-- export report and export toPhy
-- offer a powerful Qt-based viewer in separate package `spikeinterface-gui <https://https://github.com/SpikeInterface/spikeinterface-gui>`_
+- export a report and/or export to Phy.
+- offer a powerful Qt-based viewer in a separate package `spikeinterface-gui <https://https://github.com/SpikeInterface/spikeinterface-gui>`_
 - have some powerful sorting components to build your own sorter.
 
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 1
     :caption: Contents:
 
     overview
     installation
-    getting_started/plot_getting_started.rst
-    modules_doc
-    modules/index.rst
-    supported_formats_and_sorters
+    modules/index
+    how_to/index
+    modules_gallery/index
     install_sorters
     viewers
     contribute
@@ -44,26 +51,21 @@ With SpikeInterface, users can:
     authors
 
 
-For more information, please have a look at:
+Other resources
+---------------
 
-- The `eLife paper <https://elifesciences.org/articles/61834>`_
+To get started with SpikeInterface, you can take a look at the following additional resources:
 
-- 1-hour `video tutorial <https://www.youtube.com/watch?v=fvKG_-xQ4D8&t=3364s&ab_channel=NeurodataWithoutBorders>`_, recorded for the NWB User Days (Sep 2020)
+- | `spiketutorials <https://github.com/SpikeInterface/spiketutorials>`_ is a collection of basic and advanced 
+  | tutorials. It includes links to videos to dive into the SpikeInterface framework.
 
-- A collection of analysis notebook `SpikeInterface Reports <https://spikeinterface.github.io/>`_
+- | `SpikeInterface Reports <https://spikeinterface.github.io/>`_ contains several notebooks to reproduce analysis 
+  | figures of SpikeInterface-based papers and to showcase the latest features of SpikeInterface.
 
-
-**Versions**
-
-SpikeInterface get a major release in July 2021 (version 0.90.0)
-
-  * breaks backward compatibility with 0.10/0.11/0.12/0.13 series
-  * is not a metapackage anymore
-  * doesn't depend on spikeextractors/spiketoolkit/spikesorters/spikecomparison/spikewidgets sub-packages
-
-Please see the release notes here: :ref:`release0.90.0`
-  
-See the documentation for the version 0.13.0 (old API) `here <https://spikeinterface.readthedocs.io/en/0.13.0/>`_.
+- | The `2020 eLife paper <https://elifesciences.org/articles/61834>`_ introduces the concept and motivation and 
+  | performs an in-depth comparison of multiple sorters (spoiler alert: they strongly disagree with each other!). 
+  | **Note**: the code-base and implementation have changed a lot since the "paper" version published in 2020. 
+  | For detailed documentation we therefore suggest more recent resources, like this documentation and :code:`spiketutorials`.
 
 
 .. Indices and tables

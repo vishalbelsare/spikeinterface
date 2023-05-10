@@ -20,30 +20,31 @@ In the following documentation, we provide an overview of SpikeInterface.
 Organization
 ------------
 
-SpikeInterface consists of 5 main sub-packages which encapsulate all steps in a typical spike sorting pipeline:
+SpikeInterface consists of several sub-packages which encapsulate all steps in a typical spike sorting pipeline:
 
-- spikeinterface.extractors
-- spikeinterface.toolkit
-- spikeinterface.sorters
-- spikeinterface.comparisons
-- spikeinterface.widgets
+- :py:mod:`spikeinterface.core`
+- :py:mod:`spikeinterface.extractors`
+- :py:mod:`spikeinterface.preprocessing`
+- :py:mod:`spikeinterface.sorters`
+- :py:mod:`spikeinterface.postprocessing`
+- :py:mod:`spikeinterface.qualitymetrics`
+- :py:mod:`spikeinterface.widgets`
+- :py:mod:`spikeinterface.exporters`
+- :py:mod:`spikeinterface.comparison`
+- :py:mod:`spikeinterface.curation` (under development)
+- :py:mod:`spikeinterface.sortingcomponents` (under development)
 
-
-Contrary to the previous version (<0.90.0), :code:`spikeinterface` is now one unique package.
-Before that, :code:`spikeinterface` was a metapackage that depended on 5 independent packages.
 
 .. image:: images/overview.png
+  :align: center
 
 
 Related projects
 ----------------
 
-- `probeinterface <https://github.com/SpikeInterface/probeinterface>`_ is a python package to define and handle neural
-   probes and the wiring to recording devices.
-- `spikeforest <https://spikeforest.flatironinstitute.org>`_ is a reproducible, continuously updating platform which
-  benchmarks the performance of some spike sorting software (kilosort, herdingspike, ironclust, jrclust, klusta,
-  mountainsort4, spykingcircus, tridesclous, waveclus) using many ground-truth datasets. The processing engine is based
-  on SpikeInterface.
-- `spikely <https://github.com/SpikeInterface/spikely>`_ is a graphical user interface (GUI) that allows users to build
-  and run SpikeInterface spike sorting pipelines on extracellular datasets.
+- | `probeinterface <https://github.com/SpikeInterface/probeinterface>`_ is a python package to define and handle 
+  | neural probes and the wiring to recording devices.
+- | `spikeforest <https://spikeforest.flatironinstitute.org>`_ is a reproducible, continuously updating platform which
+  | benchmarks the performance of some spike sorting software using many ground-truth datasets. 
+  | The processing engine is based on SpikeInterface.
 - `MEArec <https://mearec.readthedocs.io>`_ is a fast customizable biophysical simulation of extracellular recording.

@@ -2,33 +2,15 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.8
-  - pip<21
-  - git-annex
+  - python=3.9
+  - pip
   - datalad
-  - pyqt=5
-  - numpy=1.20
+  - numpy=1.23
   - pip:
-    - joblib
-    - tqdm
-    - pillow
-    - matplotlib
-    - h5py
-    - pandas
-    - scikit-learn
-    - networkx
-    - pybind11
-    - loky
-    - neo>=0.10.0
-    - probeinterface
-    - MEArec>=1.7.1
-    - isosplit5
-    - mountainsort4>=1.0.0    
-    - tridesclous>=1.6.4
-    - herdingspikes
     - sphinx-gallery
+    - sphinx_rtd_theme
     - numpydoc
-    - numpy<1.21
-    - git+https://github.com/scikit-learn-contrib/hdbscan.git
-    - numba==0.54.1
-    - git+https://github.com/SpikeInterface/spikeinterface.git
+    - MEArec>=1.7.1
+    - hdbscan
+    - numba
+    - git+https://github.com/SpikeInterface/spikeinterface.git#egg=spikeinterface[full,widgets]

@@ -7,47 +7,75 @@ of SpikeInterface. The institutional affiliations are those at the time of the c
 and may not be the current affiliation of a contributor.
 
 
-Actual core team
-----------------
+Current core team
+-----------------
 
-* `Alessio Paolo Buccino <https://www.mn.uio.no/ifi/english/people/aca/alessiob/>`_ [1]
-* `Samuel Garcia <https://github.com/samuelgarcia>`_ [4]
+* `Alessio Paolo Buccino <https://github.com/alejoe91>`_ [1]
+* `Samuel Garcia <https://github.com/samuelgarcia>`_ [2]
+
+For any inquiries, please contact Alessio Buccino (alessiop.buccino@gmail.com) or Samuel Garcia 
+(samuel.garcie.die@gmail.com), or just write an issue (preferred)!
 
 
-Initial core team
+Founding core team
 ------------------
 
+* `Alessio Paolo Buccino <https://github.com/alejoe91>`_ [1]
+* `Cole Hurwitz <https://github.com/colehurwitz>`_ [3]
+* `Jeremy Magland <https://github.com/magland>`_ [4]
+* `Matthias Hennig <https://github.com/mhhennig>`_ [3]
+* `Samuel Garcia <https://github.com/samuelgarcia>`_ [2]
 
-* `Alessio Paolo Buccino <https://www.mn.uio.no/ifi/english/people/aca/alessiob/>`_ [1]
-* `Cole Hurwitz <https://www.inf.ed.ac.uk/people/students/Cole_Hurwitz.html>`_ [2]
-* `Jeremy Magland <https://www.simonsfoundation.org/team/jeremy-magland>`_ [3]
-* `Matthias Hennig <http://homepages.inf.ed.ac.uk/mhennig/>`_ [2]
-* `Samuel Garcia <https://github.com/samuelgarcia>`_ [4]
 
-For any inquiries, please contact Alessio Buccino (alessiop.buccino@gmail.com), Cole Hurwitz (cole.hurwitz@ed.ac.uk), or just write an issue!
+1. Allen Institute for Neural Dynamics (AIND), Seattle, USA.
+2. Centre de Recherche en Neuroscience de Lyon (CRNL), Lyon, France.
+3. The Institute for Adaptive and Neural Computation (ANC), University of Edinburgh, Edinburgh, Scotland.
+4. Center for Computational Biology (CCB), Flatiron Institute, New York, United States.
 
-1. Bio Engineering Laboratory, Dept. of Biosystems Science and Engineering, ETH Zurich, Switzerland.
-2. The Institute for Adaptive and Neural Computation (ANC), University of Edinburgh, Edinburgh, Scotland.
-3. Center for Computational Biology (CCB), Flatiron Institute, New York, United States.
-4. Centre de Recherche en Neuroscience de Lyon (CRNL), Lyon, France.
 
-Contributors for actual API (>0.90)
+Contributors to current API (>0.90)
 -----------------------------------
 
+* Aurélien Wyngaard
+* Ramon Mayorquin
+* Cole Hurwitz
+* Joe Ziminski
 * Kyu Hyun Lee
 * Pierre Yger
 * Fernando J. Chaure
-* Julia Sprenger
+* Charlie Windolf
+* Josh Siegle
+* Cody Baker
 * Saksham Sharda
 * Tom Donoghue
 * Chuang Yu Min
 * Liam Keegan
+* Luiz Tauffer
 * Tom Bugnon
 * Marine Chaput
+* Jeremy Magland
+* Mauricio Toro
+* Matthias Hennig
+* Jules Lebert
+* Eduarda Centeno
+* Shawn Guo
+* Loren Frank
+* Mike Trumpis
+* Rob Luke
+* Vincent Prevosto
+* Rickey K. Liang
+* Thomas Perret
+* Yoni Browning
+* Théo Gauvrit
+* Logan de Monchaux-Irons
+* Mattia Randazzo
+* Yaroslav Halchenko
+* `skeltoh`
+* `marcbue`
 
 
-Contributors for old API (<0.13.0)
-----------------------------------
+Contributors to old API (<0.13.0)
+---------------------------------
 
 The following people have contributed code to the project as of 10 Nov 2020:
 
@@ -72,4 +100,3 @@ The following people have contributed code to the project as of 10 Nov 2020:
 * TRRuikes
 * Yaroslav Halchenko
 * Michael Scudder
-
